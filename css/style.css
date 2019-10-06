@@ -1,0 +1,319 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #333;
+	font-family: sans-serif, vardana, arial;
+	/*background:#f5f5f5;*/
+}
+.top-bar{
+	margin: 0px;
+	padding: 0px;
+	background: #eee8aa;
+	width: 100%;
+	height: 25px;
+}
+.top-bar a{
+	padding: 4px 6px;
+	text-decoration: none;
+	margin-right: 3px;
+	border-right: 1px dotted black;
+	border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	-webkit-border-radius: 0 10px 10px 0;
+	-o-border-radius: 0 10px 10px 0;
+	transition: 0.1s ease-in;
+	-moz-transition: 0.1s ease-in;
+	-webkit-transition: 0.1s ease-in;
+	-o-transition: 0.1s ease-in;
+
+}
+.top-bar a:hover{
+	font-weight: bolder;
+}
+.nav-item a{
+	color: green;
+	font-weight: bold;
+}
+.slogan{
+	width: 100%;
+	margin: 0px;
+	background:#333333;
+	color: #eee8aa;
+	padding: 5px;
+	text-align: center;
+}
+#container-style{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-o-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: #f5f5f5; 
+	padding-left: 0px; 
+	padding-right: 0px;
+	margin: 0 auto;
+}
+.title{
+	color: white;
+	width: 95%;
+	background: #3366ff;
+	padding:10px;
+	margin-top: 2px;
+	margin-bottom: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lightblue;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.search-title{
+	width: 100%;
+	background: #808000;
+	color: #ffffff;
+	padding:10px;
+	margin-bottom: 8px;
+	border: 1px solid lightblue;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+.title2{
+	width: 100%;
+	background: green;
+	padding:10px;
+	margin-bottom: 8px;
+	border: 1px solid lightgreen;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	color: #ffffff;
+}
+#blink{
+	/*list-style-image: url("../img/blink.gif");*/
+	list-style-type: none;
+}
+#none{
+	list-style-type: none;
+	list-style-image: url("../img/logo.gif");
+}
+#thumbnail{
+	background: #ffffff;
+}
+#video{
+	background: #f5f5f5;
+	border-radius: 15px 15px 0 0;
+	width: 95%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 0 auto;
+}
+#p_download{
+	padding: 2px;
+	margin: 5px;
+	color: #eee8aa;
+}
+#link{
+	text-decoration: none;
+}
+.error{
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+.page{
+	padding: 2px;
+	font-weight: bold;
+}
+.page:hover{
+	background: blue;
+	color: white;
+	padding: 3px 5px;
+	font-weight: bolder;
+	background: blue;
+	border: 1px solid blue;
+}
+.current{
+	padding: 3px 5px;
+	background: blue;
+	color: white;
+	border: 1px solid blue;
+}
+.current:hover{
+	color: white;
+	font-weight: bolder;
+}
+.downloadButton{
+	padding: 13px;
+	background: green;
+	border: 1px solid green;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	color: #ffffff;
+}
+.downloadButton:hover{
+	padding: 12px;
+	background: green;
+	color: white;
+	border: 1px solid green;
+	margin-top: 3px;
+	text-decoration: none;
+}
+.shareGroup{
+	padding-top: 30px;
+	text-align: center;
+	list-style-type: none;
+}
+.links{
+	width: 200px;
+	position: relative;
+	top: 8px;
+	padding: 10px;
+	background: #f5f5f5;
+	box-shadow: 1px 2px 5px #bbb;
+	-moz-box-shadow: 1px 2px 5px #bbb;
+	-webkit-box-shadow: 1px 2px 5px #bbb;
+	-o-box-shadow: 1px 2px 5px #bbb;
+}
+.links a{
+	text-decoration: none;
+}
+#slider{
+	height: 250px;
+	width: 95%;
+	box-sizing: border-box;
+	padding: 8px;
+	margin: 8px 0;
+	border: 4px solid #bbb;
+	border-style: outset;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: 2px 4px 6px #bbb;
+	-moz-box-shadow: 2px 4px 6px #bbb;
+	-webkit-box-shadow: 2px 4px 6px #bbb;
+	-o-box-shadow: 2px 4px 6px #bbb;
+}
+#article{
+	padding:10px 0 10px 0; 
+	background: #f5f5f5;
+	transition: 0.1s;
+	margin: 1px auto;
+}
+#article img{
+	width: 100%; 
+	height: 125px;
+	margin: 0 auto; 
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+}
+@media only screen and (max-width: 320px) {
+    #article img{
+    	width: 100%; 
+    	height: 150px;
+    	margin: 0 auto; 
+    	border-radius:5px;
+    	-moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+    	-o-border-radius:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #article img{
+    	width: 80%; 
+    	height: 145px;
+    	margin: 0 auto; 
+    	border-radius:5px;
+    	-moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+    	-o-border-radius:5px;
+    }
+}
+#article:hover{
+	border: 1px solid #bbb;
+	border-style: inset;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow: 2px 2px 3px #bbb;
+	-moz-box-shadow: 2px 2px 3px #bbb;
+	-webkit-box-shadow: 2px 2px 3px #bbb;
+	-o-box-shadow: 2px 2px 3px #bbb;
+}
+.box ul{
+	width: 98%; 
+	margin: 0 auto; 
+	padding: 0px;
+	text-align: center;
+}
+#advert{
+	background: #eee8aa; 
+	border-top: 1px solid #dddd00; 
+	border-right: 0px; 
+	border-bottom: 1px solid #dddd00; 
+	border-left: 1px solid #dddd00; 
+	margin: 15px auto;
+	box-sizing: border-box; 
+	height: 400px; 
+	width: 99%; 
+	box-sizing: border-box;
+	color: green;
+	padding: 15px;
+}
+/*Side tabs------------------------------------------------------------------------------*/
+.tab {
+  overflow: hidden;
+  border: 1px solid green; 
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: green; 
+  color: white;
+  width: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: white;
+  width: 50%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  color: #666666;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 12px 3px;
+  border-top: none;
+}
+/*end----------------------------------------------------------------------------------*/
